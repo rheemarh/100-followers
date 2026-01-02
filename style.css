@@ -139,3 +139,34 @@ h1 {
   background: rgba(255,255,255,0.2);
   transform: translateY(-2px);
 }
+/* Primary button: Follow on X */
+.cta-btn.primary {
+    background-color: #fff;   /* White button */
+  color: #000;              /* Black text */
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.cta-btn.primary:hover {
+  background-color: #f0f0f0;  /* Light gray on hover */
+  transform: translateY(-2px);
+}
+
+/* Secondary button: View Projects */
+.cta-btn.secondary {
+  background-color: #38012c;  /* Bright teal */
+  color: #fff;                /* White text */
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.cta-btn.secondary:hover {
+  background-color: #1c0449;  /* Darker teal on hover */
+  transform: translateY(-2px);
+}
